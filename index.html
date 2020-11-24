@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Character blackout board"
+    />
+    <link rel="stylesheet" href="bulma/css/bulma.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <script src="assets/board.js"></script>
+    <style>
+      img { margin: auto; }
+    </style>
+    <title>Smash Ultimate Blackout Board</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <header>
+          <h1 class="title">Smash Ultimate Blackout</h1>
+          
+          <div class="field has-addons">
+            <div class="control">
+              <input id="seed" class="input" type="text" placeholder="Seed (optional)">
+            </div>
+            <div class="control">
+              <a id="seedbtn" class="button is-info">
+                Set
+              </a>
+            </div>
+          </div>
+        </header>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="board" class="columns is-multiline">
+
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
